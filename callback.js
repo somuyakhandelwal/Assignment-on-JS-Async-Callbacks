@@ -14,10 +14,10 @@ function getCookies() {
 }
 
 //Progression 3: Create a function to creat cookies
-function createCookie(newCookie, callback) {
+function createCookie(newCookie, CallBack) {
   setTimeout(() => {
     cookies.push(newCookie);
-    callback();
+    CallBack();
   }, 1000);
 }
 
